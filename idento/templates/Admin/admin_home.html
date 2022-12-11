@@ -94,8 +94,8 @@
     <a href="" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="{% url 'admin_profile' %}">My Profile</a>
     <a href="{% url 'admin_info' %}">Client details</a>
-    <a href="{% url 'membership_details' %}">Membership record</a>
-    <a href="#">More..</a>
+    {% comment %} <a href="{% url 'membership_details' %}">Membership record</a>
+    <a href="#">More..</a> {% endcomment %}
   </div>
   
   {% comment %} <h2>Animated Sidenav Example</h2>

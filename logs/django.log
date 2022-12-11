@@ -3056,3 +3056,333 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 [11/Dec/2022 13:23:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3547
 [11/Dec/2022 13:23:15] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3547
 [11/Dec/2022 13:23:38] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3508
+[11/Dec/2022 21:58:33] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\autoreload.py:677] Watching for file changes with StatReloader
+[11/Dec/2022 21:58:48] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3507
+[11/Dec/2022 21:58:50] WARNING [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\log.py:241] Not Found: /favicon.ico
+[11/Dec/2022 21:58:50] WARNING [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /favicon.ico HTTP/1.1" 404 7131
+[11/Dec/2022 22:00:10] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:00:46] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:00:51] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_signin/ HTTP/1.1" 200 7098
+[11/Dec/2022 22:01:00] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /user_signin/ HTTP/1.1" 302 0
+[11/Dec/2022 22:01:00] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_home/ HTTP/1.1" 200 6271
+[11/Dec/2022 22:01:09] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /show_memberships_user/ HTTP/1.1" 200 7311
+[11/Dec/2022 22:01:59] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_home/ HTTP/1.1" 200 6186
+[11/Dec/2022 22:02:10] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_home/ HTTP/1.1" 200 6186
+[11/Dec/2022 22:02:12] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /signout HTTP/1.1" 302 0
+[11/Dec/2022 22:02:12] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:02:18] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_signin/ HTTP/1.1" 200 7204
+[11/Dec/2022 22:02:27] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin_signin/ HTTP/1.1" 302 0
+[11/Dec/2022 22:02:27] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_home/ HTTP/1.1" 200 3830
+[11/Dec/2022 22:02:37] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 4284
+[11/Dec/2022 22:02:54] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_info/ HTTP/1.1" 200 6127
+[11/Dec/2022 22:03:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_home/ HTTP/1.1" 200 3573
+[11/Dec/2022 22:03:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /signout HTTP/1.1" 302 0
+[11/Dec/2022 22:03:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:05:41] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_info/ HTTP/1.1" 302 0
+[11/Dec/2022 22:05:41] ERROR [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\log.py:241] Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+[11/Dec/2022 22:05:41] ERROR [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /login/?next=/admin_info/ HTTP/1.1" 500 81648
+[11/Dec/2022 22:05:46] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_home/ HTTP/1.1" 302 0
+[11/Dec/2022 22:05:46] ERROR [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\log.py:241] Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration/login.html
+[11/Dec/2022 22:05:46] ERROR [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /login/?next=/admin_home/ HTTP/1.1" 500 81785
+[11/Dec/2022 22:05:48] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_signin/ HTTP/1.1" 200 7204
+[11/Dec/2022 22:05:53] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:09:47] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:09:51] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_signin/ HTTP/1.1" 200 7204
+[11/Dec/2022 22:09:59] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin_signin/ HTTP/1.1" 302 0
+[11/Dec/2022 22:09:59] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_home/ HTTP/1.1" 200 3830
+[11/Dec/2022 22:10:07] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_info/ HTTP/1.1" 200 6127
+[11/Dec/2022 22:10:13] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 4284
+[11/Dec/2022 22:10:56] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 4457
+[11/Dec/2022 22:11:37] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 5354
+[11/Dec/2022 22:11:40] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 5354
+[11/Dec/2022 22:12:51] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 5347
+[11/Dec/2022 22:13:31] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 5368
+[11/Dec/2022 22:13:48] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 5368
+[11/Dec/2022 22:14:13] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /membership_details/ HTTP/1.1" 200 5201
+[11/Dec/2022 22:15:12] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_home/ HTTP/1.1" 200 3573
+[11/Dec/2022 22:15:28] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_info/ HTTP/1.1" 200 6127
+[11/Dec/2022 22:16:59] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_home/ HTTP/1.1" 200 3494
+[11/Dec/2022 22:17:59] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /signout HTTP/1.1" 302 0
+[11/Dec/2022 22:17:59] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:18:01] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin HTTP/1.1" 301 0
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/ HTTP/1.1" 302 0
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4658
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/css/login.css HTTP/1.1" 200 74
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/suit/css/suit.css HTTP/1.1" 200 524193
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/suit/js/suit.js HTTP/1.1" 200 7609
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/suit/css/font-awesome.min.css HTTP/1.1" 200 31000
+[11/Dec/2022 22:18:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+[11/Dec/2022 22:18:36] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[11/Dec/2022 22:18:37] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/ HTTP/1.1" 200 13012
+[11/Dec/2022 22:18:37] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 74
+[11/Dec/2022 22:18:37] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/suit/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13921
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/css/changelists.css HTTP/1.1" 200 74
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8985
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[11/Dec/2022 22:19:26] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/16/change/ HTTP/1.1" 200 24568
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/css/forms.css HTTP/1.1" 200 74
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19379
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[11/Dec/2022 22:20:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[11/Dec/2022 22:20:30] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13921
+[11/Dec/2022 22:20:40] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/user_register/ HTTP/1.1" 200 11186
+[11/Dec/2022 22:20:40] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[11/Dec/2022 22:20:42] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/user_register/ HTTP/1.1" 302 0
+[11/Dec/2022 22:20:42] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13963
+[11/Dec/2022 22:20:42] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:20:58] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/14/change/ HTTP/1.1" 200 24585
+[11/Dec/2022 22:20:58] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:21:07] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13677
+[11/Dec/2022 22:21:09] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/7/change/ HTTP/1.1" 200 24592
+[11/Dec/2022 22:21:09] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:21:15] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13677
+[11/Dec/2022 22:21:23] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/user_register/ HTTP/1.1" 200 11183
+[11/Dec/2022 22:21:25] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/user_register/ HTTP/1.1" 302 0
+[11/Dec/2022 22:21:25] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13722
+[11/Dec/2022 22:21:25] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:21:32] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/16/change/ HTTP/1.1" 200 24568
+[11/Dec/2022 22:21:32] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:22:23] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13436
+[11/Dec/2022 22:22:30] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/user_register/ HTTP/1.1" 200 11182
+[11/Dec/2022 22:22:31] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/user_register/ HTTP/1.1" 302 0
+[11/Dec/2022 22:22:31] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13482
+[11/Dec/2022 22:22:31] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:22:34] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/ HTTP/1.1" 200 13334
+[11/Dec/2022 22:22:34] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:22:46] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/e09d12b8-7d87-4ee3-9b0b-0c0e7df251de/change/ HTTP/1.1" 200 20657
+[11/Dec/2022 22:22:46] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:22:53] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/ HTTP/1.1" 200 13334
+[11/Dec/2022 22:23:00] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 200 11256
+[11/Dec/2022 22:23:02] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 302 0
+[11/Dec/2022 22:23:02] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/ HTTP/1.1" 200 13313
+[11/Dec/2022 22:23:02] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:23:23] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/d3d4a0c9-976c-4bdf-804f-09d290f8aaad/change/ HTTP/1.1" 200 20617
+[11/Dec/2022 22:23:23] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:23:30] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/ HTTP/1.1" 200 13025
+[11/Dec/2022 22:23:34] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 302 0
+[11/Dec/2022 22:23:34] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/ HTTP/1.1" 200 13275
+[11/Dec/2022 22:23:34] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 22:23:40] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 200 11247
+[11/Dec/2022 22:23:42] ERROR [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\log.py:241] Internal Server Error: /admin/attendance/admin_register/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\options.py", line 1988, in changelist_view
+    response = self.response_action(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\actions.py", line 51, in delete_selected
+    modeladmin.delete_queryset(request, queryset)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\options.py", line 1235, in delete_queryset
+    queryset.delete()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\query.py", line 1132, in delete
+    deleted, _rows_count = collector.delete()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\deletion.py", line 493, in delete
+    signals.post_delete.send(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\transaction.py", line 262, in __exit__
+    connection.commit()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\backends\base\base.py", line 330, in commit
+    self._commit()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+[11/Dec/2022 22:23:42] ERROR [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 500 147538
+[11/Dec/2022 22:23:51] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 200 11247
+[11/Dec/2022 22:23:58] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/ HTTP/1.1" 200 13025
+[11/Dec/2022 22:24:02] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 200 11247
+[11/Dec/2022 22:24:04] ERROR [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\log.py:241] Internal Server Error: /admin/attendance/admin_register/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\options.py", line 1988, in changelist_view
+    response = self.response_action(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\actions.py", line 51, in delete_selected
+    modeladmin.delete_queryset(request, queryset)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\contrib\admin\options.py", line 1235, in delete_queryset
+    queryset.delete()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\query.py", line 1132, in delete
+    deleted, _rows_count = collector.delete()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\deletion.py", line 493, in delete
+    signals.post_delete.send(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\transaction.py", line 262, in __exit__
+    connection.commit()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\backends\base\base.py", line 330, in commit
+    self._commit()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\backends\base\base.py", line 306, in _commit
+    return self.connection.commit()
+django.db.utils.IntegrityError: FOREIGN KEY constraint failed
+[11/Dec/2022 22:24:04] ERROR [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 500 147538
+[11/Dec/2022 22:24:23] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/admin_register/ HTTP/1.1" 200 11247
+[11/Dec/2022 22:24:28] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/admin_register/ HTTP/1.1" 200 13025
+[11/Dec/2022 22:24:32] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 22:56:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_signin/ HTTP/1.1" 200 7098
+[11/Dec/2022 22:57:31] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /adminregistration/ HTTP/1.1" 200 5103
+[11/Dec/2022 22:58:17] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /adminregistration/ HTTP/1.1" 200 5317
+[11/Dec/2022 22:58:46] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /adminregistration/ HTTP/1.1" 200 5317
+[11/Dec/2022 22:58:48] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /adminregistration/ HTTP/1.1" 200 5103
+[11/Dec/2022 22:58:51] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 23:03:31] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /adminregistration/ HTTP/1.1" 200 5103
+[11/Dec/2022 23:04:27] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /adminregistration/ HTTP/1.1" 200 5317
+[11/Dec/2022 23:04:40] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /adminregistration/ HTTP/1.1" 200 5103
+[11/Dec/2022 23:04:53] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /adminregistration/ HTTP/1.1" 200 5317
+[11/Dec/2022 23:05:18] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/ HTTP/1.1" 200 12929
+[11/Dec/2022 23:05:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13196
+[11/Dec/2022 23:05:20] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:05:23] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/14/change/ HTTP/1.1" 200 24506
+[11/Dec/2022 23:05:23] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:05:37] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/14/delete/ HTTP/1.1" 200 11067
+[11/Dec/2022 23:05:40] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/attendance/user_register/14/delete/ HTTP/1.1" 302 0
+[11/Dec/2022 23:05:40] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/attendance/user_register/ HTTP/1.1" 200 13295
+[11/Dec/2022 23:05:40] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:05:43] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/auth/user/ HTTP/1.1" 200 20279
+[11/Dec/2022 23:05:43] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[11/Dec/2022 23:05:43] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:05:43] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[11/Dec/2022 23:05:43] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[11/Dec/2022 23:05:57] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/auth/user/ HTTP/1.1" 200 20279
+[11/Dec/2022 23:05:57] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:06:11] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/auth/user/ HTTP/1.1" 200 20279
+[11/Dec/2022 23:06:11] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:06:43] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/auth/user/ HTTP/1.1" 200 12740
+[11/Dec/2022 23:06:50] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[11/Dec/2022 23:06:50] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/auth/user/ HTTP/1.1" 200 16017
+[11/Dec/2022 23:06:50] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:07:04] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /adminregistration/ HTTP/1.1" 302 0
+[11/Dec/2022 23:07:05] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_otp/5837a88f-d8bb-4154-8f3e-04a3f4bf666a HTTP/1.1" 200 2427
+[11/Dec/2022 23:07:14] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /adminregistration/ HTTP/1.1" 200 5103
+[11/Dec/2022 23:07:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/auth/user/ HTTP/1.1" 200 16167
+[11/Dec/2022 23:07:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:07:25] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/auth/user/ HTTP/1.1" 200 11288
+[11/Dec/2022 23:07:27] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[11/Dec/2022 23:07:27] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/auth/user/ HTTP/1.1" 200 16013
+[11/Dec/2022 23:07:27] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[11/Dec/2022 23:07:34] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 23:07:53] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /adminregistration/ HTTP/1.1" 200 5103
+[11/Dec/2022 23:08:32] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /adminregistration/ HTTP/1.1" 302 0
+[11/Dec/2022 23:08:32] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_otp/203dd4b2-2d0a-472d-8c1a-3d497a75e8dc HTTP/1.1" 200 2427
+[11/Dec/2022 23:09:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin_otp/203dd4b2-2d0a-472d-8c1a-3d497a75e8dc HTTP/1.1" 302 0
+[11/Dec/2022 23:09:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_signin/ HTTP/1.1" 200 7204
+[11/Dec/2022 23:09:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin_signin/ HTTP/1.1" 302 0
+[11/Dec/2022 23:09:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_home/ HTTP/1.1" 200 3752
+[11/Dec/2022 23:09:39] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /signout HTTP/1.1" 302 0
+[11/Dec/2022 23:09:39] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 23:09:44] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /userregistration/ HTTP/1.1" 200 5832
+[11/Dec/2022 23:11:01] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /userregistration/ HTTP/1.1" 302 0
+[11/Dec/2022 23:11:01] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_otp/b6554d07-d68b-493f-9d18-92558813f8bd HTTP/1.1" 200 2427
+[11/Dec/2022 23:11:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /user_otp/b6554d07-d68b-493f-9d18-92558813f8bd HTTP/1.1" 302 0
+[11/Dec/2022 23:11:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_signin/ HTTP/1.1" 200 7098
+[11/Dec/2022 23:11:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /user_signin/ HTTP/1.1" 302 0
+[11/Dec/2022 23:11:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_home/ HTTP/1.1" 200 6111
+[11/Dec/2022 23:11:41] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_profile/ HTTP/1.1" 200 3169
+[11/Dec/2022 23:11:44] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /user_info/ HTTP/1.1" 200 2960
+[11/Dec/2022 23:11:54] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /signout HTTP/1.1" 302 0
+[11/Dec/2022 23:11:54] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489
+[11/Dec/2022 23:11:59] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_signin/ HTTP/1.1" 200 7204
+[11/Dec/2022 23:12:08] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "POST /admin_signin/ HTTP/1.1" 302 0
+[11/Dec/2022 23:12:08] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_home/ HTTP/1.1" 200 3752
+[11/Dec/2022 23:12:17] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /admin_info/ HTTP/1.1" 200 5185
+[11/Dec/2022 23:12:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET /signout HTTP/1.1" 302 0
+[11/Dec/2022 23:12:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\servers\basehttp.py:187] "GET / HTTP/1.1" 200 3489

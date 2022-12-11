@@ -85,78 +85,9 @@
     </style>
     </head>
     <body>
-    
-    {% comment %} <select class="form-select" aria-label="Default select example" name="membership_type">
-        <option name="membership_type" selected>Membership type</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-       {% for details in get_value %}
-      <div class="row g-3 align-items-center">
-        <div class="col-auto">
-          <label for="inputPassword6" class="col-form-label" name="description">description</label>
-        </div>
-        <div class="col-auto">
-          {{ details.description }}
-        </div>
-       
-      </div>
-    
-      <div class="row g-3 align-items-center">
-        <div class="col-auto">
-          <label for="inputPassword6" class="col-form-label" name="original_price">original_price</label>
-        </div>
-        <div class="col-auto">
-          <input type="text" id="inputPassword6" name="original_price" class="form-control" aria-describedby="passwordHelpInline">
-        </div>
-        <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
-            {{ details.original_price }}
-          </span>
-        </div>
-      </div>
-    
-      <div class="row g-3 align-items-center">
-        <div class="col-auto">
-          <label for="inputPassword6" class="col-form-label" name="discount_percentage">discount_percentage</label>
-        </div>
-        <div class="col-auto">
-          <input type="text" id="inputPassword6" class="form-control" name="discount_percentage" aria-describedby="passwordHelpInline">
-        </div>
-        <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
-            {{ details.discount_percentage }}
-          </span>
-        </div>
-      </div>
-    
-      <div class="row g-3 align-items-center">
-        <div class="col-auto">
-          <label for="inputPassword6" class="col-form-label" name="discounted_price">discounted_price</label>
-        </div>
-        <div class="col-auto">
-          <input type="text" id="inputPassword6" class="form-control" name="discounted_price"   aria-describedby="passwordHelpInline">
-        </div>
-        <div class="col-auto">
-          <span id="passwordHelpInline" class="form-text">
-            {{ details.discounted_price }}
-          </span>
-        </div>
-      </div>
-        {% endfor %}
-      <button type="submit">Submit</button>
-    </form> {% endcomment %}
-    {% block content %}    
-      {% comment %} <div class="container">
-        <div class="row">
-          {% for details in get_value %}
-          <div class=" bg bg-black bg-opacity-25 m-1 col-md-3 col-12 text-center">
-            <p>{{details.description}}</p>
-          </div>
-          {% endfor %} 
-        </div>
-      </div> {% endcomment %}
+      
+      {% block content %}    
+      
             
       <form method="POST">{% csrf_token %}
       <div class="container"> 
@@ -180,7 +111,7 @@
             </div>
             </div>  
           </div>
-            {% endfor %}
+          {% endfor %}
         </div>    
       </div>
       

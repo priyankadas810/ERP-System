@@ -15,3 +15,7 @@
 [03/Dec/2022 22:51:58] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
 [05/Dec/2022 15:05:36] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
 [05/Dec/2022 23:31:37] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[11/Dec/2022 22:01:00] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[11/Dec/2022 23:11:01] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py:24] ######################################## New request has been raised for username: pdas So, sending otp to provided email: rawamit1998@gmail.com for further verification
+[11/Dec/2022 23:11:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py:28] new user with username: pdas is created successfully
+[11/Dec/2022 23:11:29] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: pdas

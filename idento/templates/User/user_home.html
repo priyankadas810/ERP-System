@@ -186,8 +186,8 @@
     <a href="" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="sidebarhighlight"><a href="{% url 'user_profile' %}">My Profile</a></div>
     <a href="{% url 'user_info' %}">Details</a>
-    <a href= "{% url 'show_memberships_user' %}">Membership</a>
-    <a href="#">More..</a>
+    {% comment %} <a href= "{% url 'show_memberships_user' %}">Membership</a>
+    <a href="#">More..</a> {% endcomment %}
 </div>
 
 {% comment %} <h2>Animated Sidenav Example</h2>
@@ -195,9 +195,9 @@
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Your Utilities</span>
 <br>
 
-<div class="myDiv">
+{% comment %} <div class="myDiv">
     <a href="{% url 'qr_generator' %}">Generate your QR code </a>   
-</div>
+</div> {% endcomment %}
 
 
 {% endblock %}
