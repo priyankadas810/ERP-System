@@ -1,0 +1,651 @@
+INFO 2022-12-01 16:55:59,496 autoreload 7224 10428 Watching for file changes with StatReloader
+INFO 2022-12-01 16:57:37,104 autoreload 7224 10428 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 16:57:38,826 autoreload 14916 10124 Watching for file changes with StatReloader
+INFO 2022-12-01 16:57:44,662 basehttp 14916 6044 "GET / HTTP/1.1" 200 6888
+ERROR 2022-12-01 16:57:51,203 log 14916 6044 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(extra={'username' : request.user.username})
+TypeError: info() missing 1 required positional argument: 'msg'
+ERROR 2022-12-01 16:57:51,215 basehttp 14916 6044 "GET /user_signin/ HTTP/1.1" 500 66454
+INFO 2022-12-01 16:58:24,989 autoreload 14916 10124 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 16:58:26,895 autoreload 6840 11328 Watching for file changes with StatReloader
+INFO 2022-12-01 16:58:29,750 views 6840 2036 ######################################User: logged in
+ERROR 2022-12-01 16:58:29,834 log 6840 2036 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(extra={'username' : request.user.username})
+TypeError: info() missing 1 required positional argument: 'msg'
+ERROR 2022-12-01 16:58:29,836 basehttp 6840 2036 "GET /user_signin/ HTTP/1.1" 500 66568
+INFO 2022-12-01 16:58:34,702 basehttp 6840 2036 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 16:58:37,025 views 6840 2036 ######################################User: logged in
+ERROR 2022-12-01 16:58:37,084 log 6840 2036 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(extra={'username' : request.user.username})
+TypeError: info() missing 1 required positional argument: 'msg'
+ERROR 2022-12-01 16:58:37,086 basehttp 6840 2036 "GET /user_signin/ HTTP/1.1" 500 66431
+INFO 2022-12-01 16:59:10,087 autoreload 6840 11328 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 16:59:11,931 autoreload 14980 1508 Watching for file changes with StatReloader
+INFO 2022-12-01 16:59:20,481 autoreload 14980 1508 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 16:59:22,498 autoreload 3200 10496 Watching for file changes with StatReloader
+INFO 2022-12-01 16:59:22,976 views 3200 15944 ######################################User: logged in
+INFO 2022-12-01 16:59:22,984 views 3200 15944 <WSGIRequest: GET '/user_signin/'>
+INFO 2022-12-01 16:59:22,996 basehttp 3200 15944 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 16:59:30,466 basehttp 3200 15944 "POST /user_signin/ HTTP/1.1" 302 0
+INFO 2022-12-01 16:59:30,516 basehttp 3200 15944 "GET /user_home/ HTTP/1.1" 200 6243
+INFO 2022-12-01 17:04:26,680 autoreload 3200 10496 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:04:28,508 autoreload 8628 6124 Watching for file changes with StatReloader
+INFO 2022-12-01 17:04:36,941 basehttp 8628 12856 "GET /signout HTTP/1.1" 302 0
+INFO 2022-12-01 17:04:36,971 basehttp 8628 12856 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 17:04:39,402 basehttp 8628 12856 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 17:06:25,278 autoreload 8628 6124 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:06:26,975 autoreload 4376 6208 Watching for file changes with StatReloader
+ERROR 2022-12-01 17:06:34,527 log 4376 15364 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 389, in user_signin
+    logger.info("######################################User: logged in", {'username' : username})
+UnboundLocalError: local variable 'username' referenced before assignment
+ERROR 2022-12-01 17:06:34,529 basehttp 4376 15364 "GET /user_signin/ HTTP/1.1" 500 66339
+INFO 2022-12-01 17:06:55,369 autoreload 4376 6208 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:06:57,140 autoreload 7076 10148 Watching for file changes with StatReloader
+ERROR 2022-12-01 17:07:01,884 log 7076 10252 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 389, in user_signin
+    logger.info("######################################User: logged in", extra={'username' : username})
+UnboundLocalError: local variable 'username' referenced before assignment
+ERROR 2022-12-01 17:07:01,887 basehttp 7076 10252 "GET /user_signin/ HTTP/1.1" 500 66488
+ERROR 2022-12-01 17:07:02,865 log 7076 10252 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 389, in user_signin
+    logger.info("######################################User: logged in", extra={'username' : username})
+UnboundLocalError: local variable 'username' referenced before assignment
+ERROR 2022-12-01 17:07:02,866 basehttp 7076 10252 "GET /user_signin/ HTTP/1.1" 500 66488
+INFO 2022-12-01 17:07:05,737 basehttp 7076 10252 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 17:07:08,549 basehttp 7076 10252 "GET /userregistration/ HTTP/1.1" 200 5902
+INFO 2022-12-01 17:07:11,539 basehttp 7076 10252 "GET / HTTP/1.1" 200 6888
+ERROR 2022-12-01 17:07:14,753 log 7076 10252 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 389, in user_signin
+    logger.info("######################################User: logged in", extra={'username' : username})
+UnboundLocalError: local variable 'username' referenced before assignment
+ERROR 2022-12-01 17:07:14,755 basehttp 7076 10252 "GET /user_signin/ HTTP/1.1" 500 66351
+INFO 2022-12-01 17:07:45,656 autoreload 7076 10148 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:07:47,609 autoreload 15064 1316 Watching for file changes with StatReloader
+INFO 2022-12-01 17:07:51,612 basehttp 15064 16148 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 17:07:53,842 views 15064 16148 ######################################User: logged in
+INFO 2022-12-01 17:07:53,843 views 15064 16148 ######################################User: logged in
+INFO 2022-12-01 17:07:53,848 basehttp 15064 16148 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 17:08:01,667 basehttp 15064 16148 "POST /user_signin/ HTTP/1.1" 302 0
+INFO 2022-12-01 17:08:01,716 basehttp 15064 16148 "GET /user_home/ HTTP/1.1" 200 6243
+INFO 2022-12-01 17:10:02,303 autoreload 15064 1316 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:10:04,183 autoreload 13632 6332 Watching for file changes with StatReloader
+INFO 2022-12-01 17:10:09,207 basehttp 13632 13388 "GET /signout HTTP/1.1" 302 0
+INFO 2022-12-01 17:10:09,222 basehttp 13632 13388 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 17:10:12,858 views 13632 13388 ######################################User: logged in
+ERROR 2022-12-01 17:10:12,937 log 13632 13388 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info("######################################User: logged in", extra={'username' : user.username})
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2022-12-01 17:10:12,940 basehttp 13632 13388 "GET /user_signin/ HTTP/1.1" 500 66378
+INFO 2022-12-01 17:10:37,317 autoreload 13632 6332 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:10:39,022 autoreload 14792 14936 Watching for file changes with StatReloader
+INFO 2022-12-01 17:10:43,581 views 14792 6020 ######################################User: logged in
+INFO 2022-12-01 17:10:43,582 views 14792 6020 ######################################User: logged in
+INFO 2022-12-01 17:10:43,596 basehttp 14792 6020 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 17:10:51,665 basehttp 14792 6020 "POST /user_signin/ HTTP/1.1" 302 0
+INFO 2022-12-01 17:10:51,706 basehttp 14792 6020 "GET /user_home/ HTTP/1.1" 200 6243
+INFO 2022-12-01 17:12:20,576 autoreload 14792 14936 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:12:22,448 autoreload 10976 15844 Watching for file changes with StatReloader
+INFO 2022-12-01 17:12:38,982 basehttp 10976 11516 "GET /signout HTTP/1.1" 302 0
+INFO 2022-12-01 17:12:38,998 basehttp 10976 11516 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 17:12:41,611 views 10976 11516 ######################################User: logged in
+ERROR 2022-12-01 17:12:41,695 log 10976 11516 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(f'######################################User: {user.username} logged in', extra={'username' : request.user})
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2022-12-01 17:12:41,698 basehttp 10976 11516 "GET /user_signin/ HTTP/1.1" 500 66410
+INFO 2022-12-01 17:13:44,362 autoreload 10976 15844 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:13:46,348 autoreload 15788 12920 Watching for file changes with StatReloader
+INFO 2022-12-01 17:13:48,243 views 15788 13536 ######################################User: logged in
+ERROR 2022-12-01 17:13:48,336 log 15788 13536 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(f'######################################User: {user.username} logged in')
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2022-12-01 17:13:48,338 basehttp 15788 13536 "GET /user_signin/ HTTP/1.1" 500 66457
+INFO 2022-12-01 17:13:52,327 basehttp 15788 13536 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 17:13:54,664 views 15788 13536 ######################################User: logged in
+ERROR 2022-12-01 17:13:54,739 log 15788 13536 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(f'######################################User: {user.username} logged in')
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2022-12-01 17:13:54,741 basehttp 15788 13536 "GET /user_signin/ HTTP/1.1" 500 66320
+INFO 2022-12-01 17:15:06,467 autoreload 15788 12920 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:15:08,373 autoreload 8556 13488 Watching for file changes with StatReloader
+INFO 2022-12-01 17:15:12,194 views 8556 16184 ######################################User: logged in
+ERROR 2022-12-01 17:15:12,268 log 8556 16184 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(f'######################################User: {username} logged in')
+UnboundLocalError: local variable 'username' referenced before assignment
+ERROR 2022-12-01 17:15:12,271 basehttp 8556 16184 "GET /user_signin/ HTTP/1.1" 500 66463
+INFO 2022-12-01 17:20:05,276 autoreload 8556 13488 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:20:07,321 autoreload 15008 6332 Watching for file changes with StatReloader
+INFO 2022-12-01 17:20:13,658 views 15008 13344 ######################################User: logged in
+ERROR 2022-12-01 17:20:13,736 log 15008 13344 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(f'######################################User:  logged in',{'username': username})
+UnboundLocalError: local variable 'username' referenced before assignment
+ERROR 2022-12-01 17:20:13,738 basehttp 15008 13344 "GET /user_signin/ HTTP/1.1" 500 66509
+INFO 2022-12-01 17:20:35,647 autoreload 15008 6332 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:20:37,656 autoreload 15696 6012 Watching for file changes with StatReloader
+INFO 2022-12-01 17:20:40,014 views 15696 14284 ######################################User: logged in
+ERROR 2022-12-01 17:20:40,093 log 15696 14284 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(f'######################################User:  logged in',extra={'username': username})
+UnboundLocalError: local variable 'username' referenced before assignment
+ERROR 2022-12-01 17:20:40,096 basehttp 15696 14284 "GET /user_signin/ HTTP/1.1" 500 66521
+INFO 2022-12-01 17:22:08,409 autoreload 15696 6012 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:22:10,466 autoreload 11428 13768 Watching for file changes with StatReloader
+INFO 2022-12-01 17:22:10,796 views 11428 5048 ######################################User: logged in
+ERROR 2022-12-01 17:22:10,899 log 11428 5048 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(f'######################################User: {user == request.user.username} logged')
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2022-12-01 17:22:10,902 basehttp 11428 5048 "GET /user_signin/ HTTP/1.1" 500 66483
+INFO 2022-12-01 17:45:09,685 views 11428 15020 ######################################User: logged in
+ERROR 2022-12-01 17:45:09,744 log 11428 15020 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    logger.info(f'######################################User: {user == request.user.username} logged')
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2022-12-01 17:45:09,746 basehttp 11428 15020 "GET /user_signin/ HTTP/1.1" 500 66483
+INFO 2022-12-01 17:45:42,719 autoreload 11428 13768 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:45:44,534 autoreload 14364 12760 Watching for file changes with StatReloader
+INFO 2022-12-01 17:46:02,887 autoreload 14364 12760 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:46:05,166 autoreload 15668 3280 Watching for file changes with StatReloader
+ERROR 2022-12-01 17:46:14,253 log 15668 11452 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 389, in user_signin
+    user = authenticate(username= username, password= password1)
+UnboundLocalError: local variable 'username' referenced before assignment
+ERROR 2022-12-01 17:46:14,256 basehttp 15668 11452 "GET /user_signin/ HTTP/1.1" 500 66447
+INFO 2022-12-01 17:46:20,544 autoreload 15668 3280 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:46:22,563 autoreload 724 14944 Watching for file changes with StatReloader
+INFO 2022-12-01 17:46:22,850 views 724 14600 ######################################User: logged in
+ERROR 2022-12-01 17:46:22,943 log 724 14600 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 391, in user_signin
+    logger.info(f'######################################User: {user.username} logged')
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2022-12-01 17:46:22,946 basehttp 724 14600 "GET /user_signin/ HTTP/1.1" 500 66427
+INFO 2022-12-01 17:46:32,195 autoreload 724 14944 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 17:46:34,190 autoreload 6732 13600 Watching for file changes with StatReloader
+INFO 2022-12-01 17:46:34,831 views 6732 4432 ######################################User: logged in
+INFO 2022-12-01 17:46:34,832 views 6732 4432 ######################################User: logged
+INFO 2022-12-01 17:46:34,841 basehttp 6732 4432 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 17:46:42,105 basehttp 6732 4432 "POST /user_signin/ HTTP/1.1" 302 0
+INFO 2022-12-01 17:46:42,146 basehttp 6732 4432 "GET /user_home/ HTTP/1.1" 200 6243
+INFO 2022-12-01 18:05:48,685 autoreload 1872 700 Watching for file changes with StatReloader
+INFO 2022-12-01 18:05:53,661 basehttp 1872 16240 "GET /signout HTTP/1.1" 302 0
+INFO 2022-12-01 18:05:53,769 basehttp 1872 16240 "GET / HTTP/1.1" 200 6888
+WARNING 2022-12-01 18:05:54,712 log 1872 16240 Not Found: /favicon.ico
+WARNING 2022-12-01 18:05:54,714 basehttp 1872 16240 "GET /favicon.ico HTTP/1.1" 404 6293
+INFO 2022-12-01 18:05:56,603 basehttp 1872 16240 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 18:06:05,818 basehttp 1872 16240 "GET / HTTP/1.1" 200 6888
+ERROR 2022-12-01 18:06:11,861 log 1872 16240 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 390, in user_signin
+    "name": user.username
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2022-12-01 18:06:11,864 basehttp 1872 16240 "GET /user_signin/ HTTP/1.1" 500 65867
+INFO 2022-12-01 18:06:52,694 autoreload 1872 700 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:06:54,833 autoreload 14824 4676 Watching for file changes with StatReloader
+ERROR 2022-12-01 18:06:56,777 log 14824 15236 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 389, in user_signin
+    get_cred = user_register.objects.get(user = request.user)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\query.py", line 1420, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\query.py", line 1438, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\query.py", line 1445, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\sql\query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\fields\related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\fields\__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x04208730>>.
+ERROR 2022-12-01 18:06:56,791 basehttp 14824 15236 "GET /user_signin/ HTTP/1.1" 500 127014
+INFO 2022-12-01 18:08:23,459 autoreload 14824 4676 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:08:25,400 autoreload 12136 8628 Watching for file changes with StatReloader
+INFO 2022-12-01 18:08:28,968 autoreload 12136 8628 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:08:31,369 autoreload 6400 15424 Watching for file changes with StatReloader
+INFO 2022-12-01 18:08:46,034 autoreload 6400 15424 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:08:48,098 autoreload 10660 3772 Watching for file changes with StatReloader
+INFO 2022-12-01 18:08:55,176 views 10660 8432 ###################################### sign in
+INFO 2022-12-01 18:08:55,197 basehttp 10660 8432 "GET /user_signin/ HTTP/1.1" 200 7098
+ERROR 2022-12-01 18:09:03,775 log 10660 8432 Internal Server Error: /user_signin/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 389, in user_signin
+    logger.info("######################################User: logged in", extra = context)
+  File "C:\Users\PRIYANKA\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "C:\Users\PRIYANKA\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 1575, in _log
+    record = self.makeRecord(self.name, level, fn, lno, msg, args,
+  File "C:\Users\PRIYANKA\AppData\Local\Programs\Python\Python38-32\lib\logging\__init__.py", line 1549, in makeRecord
+    raise KeyError("Attempt to overwrite %r in LogRecord" % key)
+KeyError: "Attempt to overwrite 'name' in LogRecord"
+ERROR 2022-12-01 18:09:03,779 basehttp 10660 8432 "POST /user_signin/ HTTP/1.1" 500 83676
+INFO 2022-12-01 18:09:23,080 autoreload 10660 3772 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:09:25,203 autoreload 10372 1196 Watching for file changes with StatReloader
+WARNING 2022-12-01 18:09:28,523 log 10372 13060 Forbidden (CSRF token from POST incorrect.): /user_signin/
+WARNING 2022-12-01 18:09:28,525 basehttp 10372 13060 "POST /user_signin/ HTTP/1.1" 403 2518
+INFO 2022-12-01 18:09:31,189 views 10372 13060 ###################################### sign in
+INFO 2022-12-01 18:09:31,196 basehttp 10372 13060 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 18:09:32,779 views 10372 13060 ###################################### sign in
+INFO 2022-12-01 18:09:32,782 basehttp 10372 13060 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 18:09:34,157 basehttp 10372 13060 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 18:09:35,358 basehttp 10372 13060 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 18:09:37,752 views 10372 13060 ###################################### sign in
+INFO 2022-12-01 18:09:37,754 basehttp 10372 13060 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 18:09:44,393 views 10372 13060 ######################################User: logged in
+INFO 2022-12-01 18:09:44,515 basehttp 10372 13060 "POST /user_signin/ HTTP/1.1" 302 0
+INFO 2022-12-01 18:09:44,562 basehttp 10372 13060 "GET /user_home/ HTTP/1.1" 200 6243
+INFO 2022-12-01 18:10:34,168 autoreload 10372 1196 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:10:36,913 autoreload 10856 8956 Watching for file changes with StatReloader
+INFO 2022-12-01 18:10:42,558 basehttp 10856 7712 "GET /signout HTTP/1.1" 302 0
+INFO 2022-12-01 18:10:42,587 basehttp 10856 7712 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 18:10:45,745 views 10856 7712 ###################################### sign in
+INFO 2022-12-01 18:10:45,752 basehttp 10856 7712 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 18:10:52,025 views 10856 7712 ######################################User: {0}logged in
+INFO 2022-12-01 18:10:52,248 basehttp 10856 7712 "POST /user_signin/ HTTP/1.1" 302 0
+INFO 2022-12-01 18:10:52,273 basehttp 10856 7712 "GET /user_home/ HTTP/1.1" 200 6243
+INFO 2022-12-01 18:13:15,208 autoreload 10856 8956 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:13:17,356 autoreload 7256 11228 Watching for file changes with StatReloader
+INFO 2022-12-01 18:13:26,574 autoreload 7256 11228 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:13:29,216 autoreload 10024 14316 Watching for file changes with StatReloader
+INFO 2022-12-01 18:13:55,330 autoreload 10024 14316 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:13:57,123 autoreload 10296 15084 Watching for file changes with StatReloader
+INFO 2022-12-01 18:15:33,175 autoreload 10296 15084 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:15:35,108 autoreload 15752 11704 Watching for file changes with StatReloader
+INFO 2022-12-01 18:15:40,227 basehttp 15752 7672 "GET /signout HTTP/1.1" 302 0
+INFO 2022-12-01 18:15:40,241 basehttp 15752 7672 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 18:15:43,648 views 15752 7672 ###################################### sign in
+INFO 2022-12-01 18:15:43,655 basehttp 15752 7672 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 18:15:50,670 views 15752 7672 ######################################User {context} logged in
+INFO 2022-12-01 18:15:50,897 basehttp 15752 7672 "POST /user_signin/ HTTP/1.1" 302 0
+INFO 2022-12-01 18:15:50,939 basehttp 15752 7672 "GET /user_home/ HTTP/1.1" 200 6243
+INFO 2022-12-01 18:16:17,796 autoreload 15752 11704 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:16:19,544 autoreload 11140 14196 Watching for file changes with StatReloader
+INFO 2022-12-01 18:16:23,520 basehttp 11140 4804 "GET /signout HTTP/1.1" 302 0
+INFO 2022-12-01 18:16:23,534 basehttp 11140 4804 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 18:20:29,208 autoreload 11140 14196 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 18:20:31,554 autoreload 13508 11344 Watching for file changes with StatReloader
+INFO 2022-12-01 21:29:44,691 autoreload 12136 1360 Watching for file changes with StatReloader
+INFO 2022-12-01 21:30:42,937 autoreload 12136 1360 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:30:45,312 autoreload 6128 9688 Watching for file changes with StatReloader
+INFO 2022-12-01 21:30:58,788 autoreload 6128 9688 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:31:00,880 autoreload 10372 4104 Watching for file changes with StatReloader
+INFO 2022-12-01 21:32:14,390 autoreload 10372 4104 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:32:17,068 autoreload 6852 13520 Watching for file changes with StatReloader
+INFO 2022-12-01 21:32:20,906 autoreload 6852 13520 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:32:24,105 autoreload 1848 200 Watching for file changes with StatReloader
+INFO 2022-12-01 21:32:47,489 autoreload 1848 200 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:32:49,641 autoreload 12820 9212 Watching for file changes with StatReloader
+INFO 2022-12-01 21:32:54,547 autoreload 12820 9212 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:32:56,917 autoreload 11436 13424 Watching for file changes with StatReloader
+INFO 2022-12-01 21:33:13,029 autoreload 11436 13424 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:33:15,883 autoreload 10092 14156 Watching for file changes with StatReloader
+INFO 2022-12-01 21:33:31,741 autoreload 10092 14156 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:33:34,145 autoreload 352 16008 Watching for file changes with StatReloader
+INFO 2022-12-01 21:34:04,034 autoreload 352 16008 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:34:06,219 autoreload 5664 1440 Watching for file changes with StatReloader
+INFO 2022-12-01 21:34:31,872 basehttp 5664 10408 "GET / HTTP/1.1" 200 6888
+WARNING 2022-12-01 21:34:32,240 log 5664 10408 Not Found: /favicon.ico
+WARNING 2022-12-01 21:34:32,242 basehttp 5664 10408 "GET /favicon.ico HTTP/1.1" 404 6293
+INFO 2022-12-01 21:35:23,755 autoreload 5664 1440 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:35:25,926 autoreload 14264 6372 Watching for file changes with StatReloader
+INFO 2022-12-01 21:36:16,481 autoreload 14264 6372 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:36:18,604 autoreload 15968 14432 Watching for file changes with StatReloader
+INFO 2022-12-01 21:41:34,415 autoreload 15968 14432 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:41:36,595 autoreload 14676 7664 Watching for file changes with StatReloader
+INFO 2022-12-01 21:43:07,979 autoreload 14676 7664 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:43:10,546 autoreload 10660 1324 Watching for file changes with StatReloader
+INFO 2022-12-01 21:44:17,372 autoreload 10660 1324 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:44:19,622 autoreload 14180 2168 Watching for file changes with StatReloader
+INFO 2022-12-01 21:45:32,046 autoreload 14180 2168 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:45:34,175 autoreload 12972 11592 Watching for file changes with StatReloader
+INFO 2022-12-01 21:46:57,075 autoreload 12972 11592 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:46:59,349 autoreload 1708 7624 Watching for file changes with StatReloader
+INFO 2022-12-01 21:47:05,701 autoreload 1708 7624 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:47:07,760 autoreload 7924 15436 Watching for file changes with StatReloader
+INFO 2022-12-01 21:47:37,902 autoreload 7924 15436 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:47:40,110 autoreload 7448 10264 Watching for file changes with StatReloader
+INFO 2022-12-01 21:47:57,636 autoreload 7448 10264 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:47:59,776 autoreload 9816 15180 Watching for file changes with StatReloader
+INFO 2022-12-01 21:48:32,423 autoreload 9816 15180 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:48:34,810 autoreload 13948 11012 Watching for file changes with StatReloader
+INFO 2022-12-01 21:48:58,746 autoreload 13948 11012 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:49:01,290 autoreload 13736 3648 Watching for file changes with StatReloader
+INFO 2022-12-01 21:49:04,966 basehttp 13736 8004 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 21:49:07,946 views 13736 8004 ###################################### sign in
+INFO 2022-12-01 21:49:07,966 basehttp 13736 8004 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 21:49:15,950 views 13736 8004 ######################################User logged in
+INFO 2022-12-01 21:49:16,088 basehttp 13736 8004 "POST /user_signin/ HTTP/1.1" 302 0
+INFO 2022-12-01 21:49:16,147 basehttp 13736 8004 "GET /user_home/ HTTP/1.1" 200 6243
+INFO 2022-12-01 21:51:32,902 autoreload 13736 3648 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 21:51:36,270 autoreload 6180 3180 Watching for file changes with StatReloader
+INFO 2022-12-01 21:51:37,410 basehttp 6180 12716 "GET /signout HTTP/1.1" 302 0
+INFO 2022-12-01 21:51:37,426 basehttp 6180 12716 "GET / HTTP/1.1" 200 6888
+INFO 2022-12-01 21:51:41,171 basehttp 6180 12716 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 21:52:21,801 basehttp 6180 12716 "GET /userregistration/ HTTP/1.1" 200 5902
+ERROR 2022-12-01 21:53:23,134 log 6180 12716 Internal Server Error: /userregistration/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 191, in userRegistration
+    register1.save()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\base.py", line 847, in save_base
+    pre_save.send(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+TypeError: pre_login() missing 2 required positional arguments: 'created' and 'user'
+ERROR 2022-12-01 21:53:23,138 basehttp 6180 12716 "POST /userregistration/ HTTP/1.1" 500 89004
+INFO 2022-12-01 21:54:35,076 autoreload 6180 3180 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:54:37,239 autoreload 7836 11516 Watching for file changes with StatReloader
+INFO 2022-12-01 21:55:46,513 basehttp 7836 11372 "POST /userregistration/ HTTP/1.1" 200 5885
+INFO 2022-12-01 21:56:28,935 basehttp 7836 11372 "GET /userregistration/ HTTP/1.1" 200 5902
+ERROR 2022-12-01 21:56:59,931 log 7836 11372 Internal Server Error: /userregistration/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 191, in userRegistration
+    register1.save()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\base.py", line 847, in save_base
+    pre_save.send(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+TypeError: pre_login() missing 1 required positional argument: 'created'
+ERROR 2022-12-01 21:56:59,936 basehttp 7836 11372 "POST /userregistration/ HTTP/1.1" 500 88901
+INFO 2022-12-01 21:59:31,702 autoreload 7836 11516 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 21:59:34,134 autoreload 3428 16044 Watching for file changes with StatReloader
+INFO 2022-12-01 22:01:11,091 autoreload 3428 16044 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\apps.py changed, reloading.
+INFO 2022-12-01 22:01:13,364 autoreload 4436 10408 Watching for file changes with StatReloader
+INFO 2022-12-01 22:01:41,442 autoreload 4436 10408 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\apps.py changed, reloading.
+INFO 2022-12-01 22:01:43,648 autoreload 11436 15060 Watching for file changes with StatReloader
+INFO 2022-12-01 22:01:51,327 autoreload 11436 15060 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\apps.py changed, reloading.
+INFO 2022-12-01 22:01:53,435 autoreload 4576 7220 Watching for file changes with StatReloader
+INFO 2022-12-01 22:02:04,188 basehttp 4576 3052 "GET /userregistration/ HTTP/1.1" 200 5902
+INFO 2022-12-01 22:02:09,498 basehttp 4576 3052 "GET /admin HTTP/1.1" 301 0
+INFO 2022-12-01 22:02:09,540 basehttp 4576 3052 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-12-01 22:02:09,774 basehttp 4576 3052 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO 2022-12-01 22:02:09,884 basehttp 4576 3052 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+INFO 2022-12-01 22:02:09,896 basehttp 4576 3052 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2022-12-01 22:02:09,924 basehttp 4576 228 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+INFO 2022-12-01 22:02:09,926 basehttp 4576 13476 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+INFO 2022-12-01 22:02:09,931 basehttp 4576 6224 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2022-12-01 22:02:09,932 basehttp 4576 4544 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+INFO 2022-12-01 22:02:09,945 basehttp 4576 8576 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+INFO 2022-12-01 22:02:10,008 basehttp 4576 8576 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2022-12-01 22:02:10,017 basehttp 4576 4544 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2022-12-01 22:02:20,258 basehttp 4576 8576 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-12-01 22:02:20,331 basehttp 4576 8576 "GET /admin/ HTTP/1.1" 200 8326
+INFO 2022-12-01 22:02:20,377 basehttp 4576 8576 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2022-12-01 22:02:20,417 basehttp 4576 8576 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2022-12-01 22:02:20,417 basehttp 4576 6224 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2022-12-01 22:02:20,418 basehttp 4576 4544 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2022-12-01 22:02:20,486 basehttp 4576 4544 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2022-12-01 22:02:27,239 basehttp 4576 4544 "GET /admin/attendance/user_register/ HTTP/1.1" 200 8182
+INFO 2022-12-01 22:02:27,303 basehttp 4576 13476 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2022-12-01 22:02:27,309 basehttp 4576 6224 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-12-01 22:02:27,391 basehttp 4576 3052 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8985
+INFO 2022-12-01 22:02:27,397 basehttp 4576 228 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2022-12-01 22:02:27,404 basehttp 4576 13476 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2022-12-01 22:02:27,405 basehttp 4576 4544 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+INFO 2022-12-01 22:02:27,468 basehttp 4576 3052 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2022-12-01 22:02:27,475 basehttp 4576 8576 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2022-12-01 22:02:27,483 basehttp 4576 6224 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2022-12-01 22:02:27,550 basehttp 4576 13476 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2022-12-01 22:02:27,568 basehttp 4576 8576 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+INFO 2022-12-01 22:02:27,613 basehttp 4576 8576 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2022-12-01 22:02:30,707 basehttp 4576 8576 "GET /admin/attendance/user_register/12/change/ HTTP/1.1" 200 15300
+INFO 2022-12-01 22:02:30,763 basehttp 4576 3052 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-12-01 22:02:30,774 basehttp 4576 8576 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+INFO 2022-12-01 22:02:30,791 basehttp 4576 8576 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+INFO 2022-12-01 22:02:30,796 basehttp 4576 13476 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2022-12-01 22:02:30,809 basehttp 4576 6224 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19379
+INFO 2022-12-01 22:02:30,896 basehttp 4576 13476 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2022-12-01 22:02:30,950 basehttp 4576 6224 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2022-12-01 22:02:30,963 basehttp 4576 13476 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2022-12-01 22:02:31,182 basehttp 4576 13476 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2022-12-01 22:02:33,974 basehttp 4576 13476 "GET /admin/auth/user/ HTTP/1.1" 200 13255
+INFO 2022-12-01 22:02:34,018 basehttp 4576 13476 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-12-01 22:02:34,029 basehttp 4576 13476 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2022-12-01 22:02:34,040 basehttp 4576 6224 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2022-12-01 22:02:34,090 basehttp 4576 6224 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2022-12-01 22:02:34,122 basehttp 4576 13476 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2022-12-01 22:02:39,687 basehttp 4576 13476 "POST /admin/auth/user/ HTTP/1.1" 200 6692
+INFO 2022-12-01 22:02:39,728 basehttp 4576 13476 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2022-12-01 22:02:41,183 basehttp 4576 13476 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2022-12-01 22:02:41,234 basehttp 4576 13476 "GET /admin/auth/user/ HTTP/1.1" 200 12982
+INFO 2022-12-01 22:02:41,292 basehttp 4576 13476 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2022-12-01 22:03:05,231 log 4576 13476 Forbidden (CSRF token from POST incorrect.): /userregistration/
+WARNING 2022-12-01 22:03:05,233 basehttp 4576 13476 "POST /userregistration/ HTTP/1.1" 403 2518
+INFO 2022-12-01 22:03:07,923 basehttp 4576 13476 "GET /userregistration/ HTTP/1.1" 200 5902
+INFO 2022-12-01 22:03:17,703 basehttp 4576 13476 "GET /userregistration/ HTTP/1.1" 200 5902
+ERROR 2022-12-01 22:03:51,756 log 4576 13476 Internal Server Error: /userregistration/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 191, in userRegistration
+    register1.save()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\base.py", line 878, in save_base
+    post_save.send(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+TypeError: post_login() missing 1 required positional argument: 'request'
+ERROR 2022-12-01 22:03:51,761 basehttp 4576 13476 "POST /userregistration/ HTTP/1.1" 500 89789
+INFO 2022-12-01 22:04:33,929 autoreload 4576 7220 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:04:36,493 autoreload 3180 12716 Watching for file changes with StatReloader
+INFO 2022-12-01 22:04:42,688 basehttp 3180 14880 "GET /admin/auth/user/ HTTP/1.1" 200 13255
+INFO 2022-12-01 22:04:42,751 basehttp 3180 14880 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-12-01 22:04:49,148 basehttp 3180 14880 "POST /admin/auth/user/ HTTP/1.1" 200 6692
+INFO 2022-12-01 22:04:51,653 basehttp 3180 14880 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2022-12-01 22:04:51,711 basehttp 3180 14880 "GET /admin/auth/user/ HTTP/1.1" 200 12982
+INFO 2022-12-01 22:04:51,779 basehttp 3180 14880 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-12-01 22:04:59,590 autoreload 3180 12716 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:05:01,760 autoreload 15904 12736 Watching for file changes with StatReloader
+INFO 2022-12-01 22:05:14,637 basehttp 15904 11596 "GET /userregistration/ HTTP/1.1" 200 5902
+INFO 2022-12-01 22:05:41,778 signals 15904 11596 ########################################User: rahul signed in
+INFO 2022-12-01 22:05:41,784 basehttp 15904 11596 "POST /userregistration/ HTTP/1.1" 302 0
+INFO 2022-12-01 22:05:41,807 basehttp 15904 11596 "GET /user_otp/e383ab85-a163-411c-92a9-95d023b657c1 HTTP/1.1" 200 2427
+INFO 2022-12-01 22:05:51,202 autoreload 15904 12736 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:05:53,571 autoreload 12784 1364 Watching for file changes with StatReloader
+INFO 2022-12-01 22:06:22,217 autoreload 12784 1364 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:06:24,687 autoreload 9052 3516 Watching for file changes with StatReloader
+INFO 2022-12-01 22:06:32,514 basehttp 9052 9512 "GET /userregistration/ HTTP/1.1" 200 5902
+INFO 2022-12-01 22:06:34,210 basehttp 9052 9512 "GET /userregistration/ HTTP/1.1" 200 5902
+ERROR 2022-12-01 22:07:05,871 log 9052 9512 Internal Server Error: /userregistration/
+Traceback (most recent call last):
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py", line 191, in userRegistration
+    register1.save()
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\base.py", line 812, in save
+    self.save_base(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\db\models\base.py", line 847, in save_base
+    pre_save.send(
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\PRIYANKA\Desktop\AttendanceSystem\venv\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+TypeError: post_login() missing 1 required positional argument: 'created'
+ERROR 2022-12-01 22:07:05,875 basehttp 9052 9512 "POST /userregistration/ HTTP/1.1" 500 89113
+INFO 2022-12-01 22:07:40,320 autoreload 9052 3516 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:07:42,458 autoreload 9712 7236 Watching for file changes with StatReloader
+INFO 2022-12-01 22:09:29,886 autoreload 9712 7236 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:09:32,449 autoreload 6720 12676 Watching for file changes with StatReloader
+INFO 2022-12-01 22:10:13,044 autoreload 6720 12676 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:10:15,414 autoreload 7172 4100 Watching for file changes with StatReloader
+INFO 2022-12-01 22:10:28,389 autoreload 7172 4100 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:10:30,698 autoreload 9336 16172 Watching for file changes with StatReloader
+INFO 2022-12-01 22:10:51,274 autoreload 9336 16172 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:10:53,407 autoreload 12164 4592 Watching for file changes with StatReloader
+INFO 2022-12-01 22:12:04,597 autoreload 12164 4592 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:12:07,017 autoreload 15588 9972 Watching for file changes with StatReloader
+INFO 2022-12-01 22:12:18,973 autoreload 15588 9972 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:12:21,628 autoreload 6888 11440 Watching for file changes with StatReloader
+INFO 2022-12-01 22:12:24,587 basehttp 6888 6624 "GET /userregistration/ HTTP/1.1" 200 5902
+INFO 2022-12-01 22:12:25,346 basehttp 6888 6624 "GET /userregistration/ HTTP/1.1" 200 5902
+INFO 2022-12-01 22:12:57,925 signals 6888 6624 ######################################## New User has been created: pandy but not verified, sending otp to andy@pandy.com for verification
+INFO 2022-12-01 22:12:57,931 basehttp 6888 6624 "POST /userregistration/ HTTP/1.1" 302 0
+INFO 2022-12-01 22:12:57,939 basehttp 6888 6624 "GET /user_otp/98a32c09-edeb-40a0-a335-959b7d858eec HTTP/1.1" 200 2427
+INFO 2022-12-01 22:15:17,061 basehttp 6888 6624 "GET /admin/attendance/user_register/ HTTP/1.1" 200 8413
+INFO 2022-12-01 22:15:17,135 basehttp 6888 6624 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-12-01 22:15:21,815 basehttp 6888 6624 "GET /admin/attendance/user_register/15/change/ HTTP/1.1" 200 15383
+INFO 2022-12-01 22:15:21,871 basehttp 6888 6624 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-12-01 22:15:45,497 signals 6888 6624 new user with username: pandy is created successfully
+INFO 2022-12-01 22:15:45,499 basehttp 6888 6624 "POST /user_otp/98a32c09-edeb-40a0-a335-959b7d858eec HTTP/1.1" 302 0
+INFO 2022-12-01 22:15:45,508 basehttp 6888 6624 "GET /user_signin/ HTTP/1.1" 200 7098
+INFO 2022-12-01 22:18:51,213 autoreload 6888 11440 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:18:53,722 autoreload 3408 15636 Watching for file changes with StatReloader
+INFO 2022-12-01 22:19:08,059 autoreload 3408 15636 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:19:10,390 autoreload 9920 12328 Watching for file changes with StatReloader
+INFO 2022-12-01 22:19:15,594 autoreload 9920 12328 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py changed, reloading.
+INFO 2022-12-01 22:19:18,533 autoreload 12716 10424 Watching for file changes with StatReloader
+INFO 2022-12-01 22:20:46,507 autoreload 12716 10424 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py changed, reloading.
+INFO 2022-12-01 22:20:49,889 autoreload 788 3540 Watching for file changes with StatReloader
+INFO 2022-12-01 22:29:13,772 autoreload 788 3540 C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\idento\settings.py changed, reloading.

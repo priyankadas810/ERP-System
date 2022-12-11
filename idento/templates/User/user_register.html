@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Register</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <style>   
+      @media (min-width: 1025px) {
+        .h-custom {
+        height: 100vh ;
+        }
+        }
+
+    </style>
+<body>
+
+{% block content %} 
+  {% if messages %}
+  <div class="alert alert-danger" role="alert">
+    
+    {% for msg in messages %}         
+        {{msg}}          
+      {% endfor %}        
+</div>
+{% endif %}  
+<form method="POST" action> {% csrf_token %}
+  <section class="h-100 h-custom" style="background-color: #d5e1df; background-image: linear-gradient(#d5e1df, #b0aac0);">
+    <div class="container py-5 h-100" style="border-radius:black;">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-8 col-xl-6">
+          <div class="card rounded-3">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2" style="font-family: sans-serif; color:#034f84;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-person-circle" style="color:#36486b;">&nbsp;</i>User Registration </h3>
+               <form class="px-md-2">
+  
+                <div class="mb-4">
+                  <label class="form-label" for="name"  style="color:#36486b;"><i class="bi bi-person"  style="color:#36486b;"></i>&nbsp;<b>Name</b></label>
+                  <input type="text" id="name" name="name" class="form-control" />                  
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+  
+                    <div class="form-outline ">
+                      <div class="col-md-8">
+                        <label   style="color:#36486b;" for="gender"><b>Gender</b></label><br>
+                        <select name="gender" id="gender" class="form-control"><i class="bi bi-gender-ambiguous"  style="color:#36486b;"></i>
+                          <option value="Male">Male</option>
+                          <option value="Female">Female</option>
+                          <option value="Other">Other</option>
+                          
+                        </select>
+                      <br>
+                  </div>
+                  
+                  <div class="col-md-12">
+                    <label for="contact"  style="color:#36486b;" class="form-label"><i class="bi bi-telephone"  style="color:#36486b;"></i>&nbsp;<b>Contact </b></label>
+                    <input type="tel" class="form-control" placeholder="Enter your contact" name="contact" id="contact"><br>
+                    <label for="dob"   style="color:#36486b;" class="form-label"><i class="bi bi-calendar3"  style="color:#36486b;"></i>&nbsp;<b>Date of Birth</b></label>
+                    <input type="date" class="form-control" placeholder="Enter your date of birth" name="dob" id="dob"><br>
+                    <label for="email"  style="color:#36486b;" class="form-label"><i class="bi bi-envelope-at"  style="color:#36486b;"></i>&nbsp;<b>Email</b></label>
+                    <input type="text" class="form-control" placeholder="Enter your Email" name="email" id="email">
+                  </div>
+  
+                  </div>
+                  <div class="col-md-6">
+                    
+                  </div>
+                </div>
+                 <br>
+                <div class="row mb-4 pb-2 pb-md-0 mb-md-5" >
+                  <div class="col-md-12">
+                    <div class="form-outline">
+                      <label for="username"   style="color:#36486b;" class="form-label"><i class="bi bi-person-fill"></i>&nbsp;<b>Username</b></label>
+                      <input type="text" class="form-control" placeholder="Enter your Username" name="username" id="username"><br>
+  
+                    </div>
+  
+                    <div class="form-outline">
+                      <label for="psw"   style="color:#36486b;" class="form-label"><i class="bi bi-key"></i>&nbsp;<b>Password</b></label>
+                      <input type="password" class="form-control" placeholder="Enter your Password" name="psw" id="psw"><br>
+
+                    </div>
+                    
+                    <div class="form-outline">
+                      <label for="psw-repeat"  style="color:#36486b;"  class="form-label"><i class="bi bi-key"></i>&nbsp;<b> Re-enter Password</b></label>
+                      <input type="password" class="form-control" placeholder="Enter your Password" name="psw-repeat" id="psw-repeat"><br>
+                      <label  style="color:#36486b;"  for="org"><i class="bi bi-buildings-fill"  style="color:#36486b;"></i>&nbsp;<b>Organization Name</b></label>
+                      <select  class="form-control" name="org" id="org">
+                      {% for d in data %}
+                        <option> {{ d }}</option>
+                      {% endfor %}
+                    </select>
+                    </div>
+                  </div>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit" class="btn btn-info btn-lg mb-1"> <a href="{% url 'user_signin' %}" ></a> Register</button>
+
+                         
+  
+ 
+                </form>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>   
+      
+
+{% endblock %}
+</body>
+</html>
+
+
+
+      {% comment %} <div class="container">        
+          {% if messages %}
+            {% for msg in messages %}
+              {{msg}}        
+            {% endfor %}
+          {% endif %}  
+        </div>
+        
+        <br>
+        <br>
+        <form method="POST" action> {% csrf_token %}
+        
+          <h1> User Register</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          <div class="line" style="width: 95%;height: 15px;border-bottom: 1px solid white;  position: absolute;">
+              <label for="name"><b>Name</b></label>
+              <input type="text" placeholder="Enter your name" name="name" id="name">
+               
+              <label for="gender"><b>Gender</b></label>
+              <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Trans">Trans</option>
+              </select>
+                         
+            <label for="org"><b>Name of Organization</b></label>
+              
+              <select name="org" id="org">
+                {% for d in data %}
+                  <option> {{ d }}</option>
+                {% endfor %}
+              </select>
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter your Email" name="email" id="email" >
+
+              <label for="username"><b>Username</b></label>
+              <input type="text" placeholder="Enter your username" name="username" id="username">
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter your Password" name="psw" id="psw">
+          
+              <label for="psw-repeat"><b>Confirm Password</b></label>
+              <input type="password" placeholder="Confirm your Password" name="psw-repeat" id="psw-repeat">
+              <hr>
+          
+        
+              <button type="submit" class="registerbtn"> <a class="nav-link" href="{% url 'signin' %}" ></a> Register</button>
+            </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+            <div class="container signin">
+              <p>Already have an account? <a href="#">Sign in</a></p>
+            </div>
+          </form> {% endcomment %}
+

@@ -1,0 +1,17 @@
+[01/Dec/2022 22:53:53] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\signals.py:24] ######################################## New request has been raised for username: tay So, sending otp to provided email: as@as.com for further verification
+[01/Dec/2022 22:57:38] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:385] User has successfully logged in with username: abc
+[01/Dec/2022 22:59:31] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:388] User login failed with username: yug
+[01/Dec/2022 23:00:00] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:385] User has successfully logged in with username: abc
+[02/Dec/2022 22:19:07] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[02/Dec/2022 23:09:54] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 14:37:10] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 15:07:06] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 15:19:28] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 15:33:54] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 16:44:19] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 21:39:39] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 22:45:54] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 22:50:33] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[03/Dec/2022 22:51:58] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[05/Dec/2022 15:05:36] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc
+[05/Dec/2022 23:31:37] INFO [C:\Users\PRIYANKA\Desktop\AttendanceSystem\idento\attendance\views.py:387] User has successfully logged in with username: abc

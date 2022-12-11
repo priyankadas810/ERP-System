@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attendance</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+
+  
+ 
+</style>
+</head>
+<body>
+{% block content %}
+
+{% endblock %} 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+</script>
+
+
+
+
+
+
+
+
+{% comment %} <h1>This is starting of page</h1>
+
+{% load static %}
+<h1>Welcome to home page</h1>
+
+{% block content %}
+            
+    <h3>Register as:</h3>
+    <p> <a class="nav-link" href="{% url 'userregister' %}" onMouseOver="this.style.color='red'"onMouseOut="this.style.color='green'">User </a> </p>
+    <p> <a class="nav-link" href="{% url 'adminregister' %}" onMouseOver="this.style.color='red'"onMouseOut="this.style.color='green'">Admin</a> </p>
+    <a class="nav-link" href="{% url 'signin' %}" onMouseOver="this.style.color='red'"onMouseOut="this.style.color='green'">Login </a>  
+{% endblock %} {% endcomment %}

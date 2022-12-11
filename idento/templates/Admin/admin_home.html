@@ -1,0 +1,131 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attendance</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+  <style>
+    body {
+      font-family: "Lato", serif;
+      }
+      
+      .sidenav {
+      height: 40%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 90px;
+      left: 0;
+      background-color: #6495ED;
+      border: 10px;
+      border-radius: 20px;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 30px;
+      }
+      
+      .sidenav a {
+      padding: 8px 8px 8px 32px;
+      top: 50px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      font-family: verdana;
+      display: block;
+      transition: 0.3s;
+      
+      }
+
+      # sidenavsidebarhighlight{
+        height: 50px;
+        width: 50px;
+        margin-right: 300px;
+        background-color: white;
+      }
+      
+      .sidenav a:hover {
+      color: black;
+      }
+      
+      .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 400px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      }
+</style>
+<body>
+{% block content %}
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand" style="margin-right: 1350px;"> Hello, {{request.user}} </a>
+  <form class="form-inline" method="POST">{% csrf_token %}
+    <span class="tt"  data-bs-placement="bottom" title="Logout">
+    <a class="nav-link" href="{% url 'signout' %}"><i class="bi bi-box-arrow-right" style="font-size: 25px;"></i></a>
+    </span>
+  </form>
+</nav>
+
+<div class="fadeIn first">
+  {% if messages %}
+  <div onclick="this.parentElement.style.display='none';" class="alert alert-success" aria-label="Close" role="alert" style="margin-right: 1310px; margin-top: 10px;">
+   {% for msg in messages %}         
+     {{msg}}          
+   {% endfor %}        
+  &times;</div>
+{% endif %}
+ </div>
+
+<div id="mySidenav" class="sidenav">
+    <a href="" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="{% url 'admin_profile' %}">My Profile</a>
+    <a href="{% url 'admin_info' %}">Client details</a>
+    <a href="{% url 'membership_details' %}">Membership record</a>
+    <a href="#">More..</a>
+  </div>
+  
+  {% comment %} <h2>Animated Sidenav Example</h2>
+  <p>Click on the element below to open the side navigation menu.</p> {% endcomment %}
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Your Utilities</span>
+
+
+
+{% endblock %}
+
+</body>  
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+  <!---tool tip script-->
+<script>
+  const tooltips = documents.querySelectorAll('.tt')
+  tooltips.forEach(t => {
+    new bootstrap.Tooltip(t)
+  })
+  <!-- JavaScript for close alert -->
+  <script>
+    function hide(e){
+      e.style.display = "none";
+    }
+   </script>   
+</html>
